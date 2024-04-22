@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .firstDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    background-image: linear-gradient(to right, #ebbebe, #dc68c3);
+  }
+  .iconsDiv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+  }
+  .sencondDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #phIcon {
+    color: white;
+  }
+  .ph {
+    color: white;
+  }
+  .reqbtn:hover {
+    transition-duration: 1s;
+    background-color: #4267b2;
+  }
+  .reqbtn {
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: 2px solid white;
+    background: #dc68c3;
+    color: white;
+    cursor: pointer;
+  }
+  .thirdDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ulDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .ulDiv li {
+    list-style-type: none;
+  }
+  .ulDiv li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+  .logoDiv img {
+    width: 200px;
+  }
+  #seachIcn {
+    background: #000;
+    color: white;
+    padding: 33px 8px;
+  }
+  .buyNowLink {
+    background: #ebbebe;
+    padding: 30px 10px;
+  }
+  .divFour {
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/dealPIc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .divForLine {
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    height: 250px;
+    width: 5px;
+    background: white;
+  }
+  .wearecrtv {
+    position: absolute;
+    left: 22%;
+    top: 37%;
+    color: white;
+    letter-spacing: 20px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .cdapara1 {
+    position: absolute;
+    left: 22%;
+    top: 42%;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .cdapara2 {
+    position: absolute;
+    left: 37%;
+    top: 42%;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    opacity: 0.5;
+  }
+  .para3 {
+    position: absolute;
+    left: 22%;
+    top: 48%;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  .para4 {
+    position: absolute;
+    left: 22%;
+    top: 51%;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  .twobtnDiv {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 22%;
+    top: 55%;
+  }
+  .btn1 {
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: none;
+    background: #dc68c3;
+    cursor: pointer;
+    color: white;
+  }
+  .btn1_copy {
+    position: absolute;
+    left: -22%;
+    top: 1%;
+    padding: 14px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: none;
+    background: #dc68c3;
+    color: white;
+    cursor: pointer;
+    opacity: 0.3;
+  }
+  .btn2 {
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  .btn2_copy {
+    position: absolute;
+    right: -30%;
+    top: 1%;
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  .fifthDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #ebbebe, #dc68c3);
+    padding: 70px 300px;
+    color: white;
+  }
+  #rocket_icn {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+  }
+  .icns {
+    cursor: pointer;
+  }
+  .icns:hover {
+    transition-duration: 1s;
+    color: #4267b2;
+  }
+  .icnwithspn {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 10px;
+  }
+  .spans {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .text {
+    font-weight: 700;
+  }
+  .sixthDiv {
+    padding: 0px 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .aboutUs {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .clients {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: 700;
+  }
+  .descriptionPara {
+    font-size: 20px;
+  }
+  .btn2:hover {
+    transition-duration: 1s;
+    background-color: #dc68c3;
+  }
+  .readMoreBtn {
+    padding: 12px 20px;
+    border-radius: 22px 22px 20px 20px;
+    outline: none;
+    margin-top: 15px;
+    border: 2px solid white;
+    background: #dc68c3;
+    color: white;
+    cursor: pointer;
+  }
+  .readMoreBtn:hover {
+    transition-duration: 1s;
+    background-color: #4267b2;
+  }
+  .blowLineDiv {
+    height: 3px;
+    width: 50px;
+    background: #000;
+  }
+  .blowLineDiv_for_sevices {
+    height: 3px;
+    width: 50px;
+    background: #000;
+    margin-left: 15px;
+  }
+  .seventhDiv_wrapper {
+    padding: 10px 310px;
+    background-color: rgba(128, 128, 128, 0.184);
+  }
+  .ourServices_txt {
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    margin: 10px 13px;
+  }
+  .eightDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 20px;
+    position: relative;
+  }
+  .laptopONtable {
+    width: 380px;
+    height: 300px;
+  }
+  
+  .icon_with_txt {
+    width: 310px;
+    background: white;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    border-radius: 27px 0px 0px 27px;
+  }
+  
+  .dd {
+    position: relative;
+  }
+  .fa-bullhorn {
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    background: #dc68c3;
+  }
+  .fa-object-group {
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    background: #dc68c3;
+  }
+  .fa-dollar-sign {
+    padding: 15px;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    background: #dc68c3;
+  }
+  .usrExp {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+  }
